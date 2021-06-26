@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchBooksActivity"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recViewSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/edtTxtSearch"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:id="@+id/txtSearchTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/mate_sc"
+        android:text="@string/search_for_a_book"
+        android:textColor="@color/foreground"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/edtTxtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_a_book_title"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_below="@+id/txtSearchTitle"/>
+
+    <ImageButton
+        android:id="@+id/btnSearch"
+        android:layout_width="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_search"
+        android:layout_toEndOf="@+id/txtSearchTitle"
+        android:layout_below="@+id/txtSearchTitle"/>
+
+</RelativeLayout>

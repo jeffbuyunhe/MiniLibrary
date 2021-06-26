@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MiniLibrary</string>
+    <string name="action_name">Action Name</string>
+    <string name="about_me">About Me</string>
+    <string name="minilibrary">MiniLibrary</string>
+    <string name="developed_by_jeff_he">Developed by Jeff He</string>
+    <string name="book_name">Book Name</string>
+    <string name="authour">Authour</string>
+    <string name="already_read">Already Read</string>
+    <string name="currently_reading">Currently Reading</string>
+    <string name="favourite_books">Favourite Books</string>
+    <string name="enter_a_book_title">Enter a Book Title…</string>
+    <string name="search_for_a_book">Search for a Book</string>
+    <string name="author_name">Author Name</string>
+    <string name="book_title">Book Title</string>
+    <string name="description">Description</string>
+    <string name="n_a_pages">N/A Pages</string>
+    <string name="description_goes_here">Description goes here</string>
+    <string name="favourite_this">Favourite This</string>
+    <string name="delete">Delete</string>
+    <string name="from">from</string>
+</resources>
