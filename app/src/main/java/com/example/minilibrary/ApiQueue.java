@@ -17,7 +17,7 @@ import org.json.JSONObject;
 public class ApiQueue {
     private static ApiQueue instance;
     private RequestQueue requestQueue;
-    private static Context context;
+    private Context context;
 
     private ApiQueue(Context context) {
         this.context = context;
